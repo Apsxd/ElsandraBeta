@@ -4,13 +4,13 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = "27589257" # integer value, dont use ""
+    API_HASH = "0af78b04b48361bc117fa4e06d6d2292"
+    TOKEN = "6055798094:AAGWAsG0ZdlyN5pDaxPSGy-7gwuYapRXhBs"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
-    START_IMG = ""
+    START_IMG = "https://graph.org/file/396e55a171173d7b24b9b.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
