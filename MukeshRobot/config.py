@@ -12,7 +12,7 @@ class Config(object):
     SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
     START_IMG = "https://graph.org/file/396e55a171173d7b24b9b.jpg"
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    MONGO_DB_URI= "mongodb+srv://drew:drewnotfound@cluster0.haeeyvb.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
     DATABASE_URL = ""  # A sql database url from elephantsql.com
     CASH_API_KEY = (
